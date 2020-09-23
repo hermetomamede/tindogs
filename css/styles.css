@@ -1,0 +1,184 @@
+/******************Tag styles************************/
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+/******************Classes styles************************/
+
+/*Classes that aree used in different sections of the website - more general*/
+
+.container-fluid
+{
+  padding: 5% 15%;
+}
+
+#title .container-fluid{
+  height: 680px;
+  position: relative;
+  text-align: left;
+  z-index: 0;
+  padding: 3% 15% 7%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/*NAV bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  margin-right: 3.5rem;
+}
+
+/*Title*/
+
+.title-description{
+  color: white;
+  font-size: 3.5rem;
+}
+
+.btn-download{
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
+.title-img{
+  position: absolute;
+  right: 200px;
+  width: 50%;
+  transform: rotate(25deg);
+  z-index: -1;
+}
+
+/*Features*/
+.features-icon{
+  color: #ef8172;
+  padding: 4.5rem 0 1rem;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+.features-title{
+  font-size: 1.5rem;
+}
+
+.p-features{
+  width: 60%;
+  margin: auto;
+}
+
+/*Testimonials*/
+
+.testimonial-description{
+  font-size: 3rem;
+  margin: auto;
+  width: 70%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 30px;
+  width: 10%;
+
+}
+
+/*Press*/
+.press-image{
+  margin: 20px 50px;
+  width: 8%;
+}
+
+/*Pricing*/
+
+.pricing-heading{
+  font-size: 2.5rem;
+}
+
+.pricing-category{
+  font-size: 1.5rem;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/*Call to Action*/
+
+.cta-text{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  margin: auto;
+  width: 70%;
+}
+
+/*Footer*/
+.footer-icon{
+    padding: 3%;
+    color: #ef8172;
+}
+
+.footer-icon:hover{
+  color: #ff4c68;
+}
+
+/******************Id styles************************/
+
+#features{
+  position: relative;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+
+/******************Media Queries************************/
+@media (max-width: 1280px){
+
+    #title{
+      height: auto;
+      text-align: center;
+      z-index: 0;
+    }
+
+    .title-img{
+      margin-top: 100px;
+      position: static;
+      transform: rotate(0);
+      z-index: 0;
+    }
+}
