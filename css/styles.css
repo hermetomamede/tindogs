@@ -154,7 +154,6 @@ p{
 #features{
   position: relative;
   margin-bottom: 50px;
-  z-index: 1;
 }
 
 #testimonials{
@@ -176,6 +175,6 @@ p{
 
     .title-img{
       margin-top: 100px;
-      transform: rotate(0);     
+      transform: rotate(0);
     }
 }
